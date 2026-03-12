@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas HTML Image Map dan Hyperlink</title>
+</head>
+
+<body>
+
+    <h1 align="center">Tugas HTML Dasar</h1>
+
+    <!-- ========================= -->
+    <!-- 1. MENYISIPKAN GAMBAR DENGAN TABLE -->
+    <!-- ========================= -->
+
+    <h2>1. Menyisipkan Gambar dengan Table</h2>
+
+    <table border="1" align="center">
+        <tr>
+            <td align="center">
+                <img src="./images/pic_trulli.jpg" width="300" alt="Foto 1">
+                <br>
+                Gambar Foto 1
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- ========================= -->
+    <!-- 2. IMAGE MAP -->
+    <!-- ========================= -->
+
+    <h2>2. Image Map</h2>
+
+    <p>Klik area kotak untuk menuju website PNJ dan lingkaran menuju W3Schools.</p>
+
+    <img src="./images/workplace.jpg" usemap="#gambar-map" width="400">
+
+    <map name="gambar-map">
+
+        <!-- RECTANGLE -->
+        <area shape="rect" coords="50,50,200,200" href="https://www.pnj.ac.id" target="_blank">
+
+        <!-- CIRCLE -->
+        <area shape="circle" coords="300,150,50" href="https://www.w3schools.com" target="_blank">
+
+    </map>
+
+    <br><br>
+
+    <!-- ========================= -->
+    <!-- 3. HYPERLINK TARGET -->
+    <!-- ========================= -->
+
+    <h2>3. Hyperlink dengan Target</h2>
+
+    <p>
+        <a href="https://www.wikipedia.org" target="_blank">
+            Link Target Blank (Buka Tab Baru)
+        </a>
+    </p>
+
+    <p>
+        <a href="https://www.cnnindonesia.com" target="_self">
+            Link Target Self
+        </a>
+    </p>
+
+    <p>
+        <a href="https://www.kompas.com" target="_parent">
+            Link Target Parent
+        </a>
+    </p>
+
+    <br><br>
+
+    <!-- ========================= -->
+    <!-- 4. BOOKMARK -->
+    <!-- ========================= -->
+
+    <h2>4. Bookmark Halaman</h2>
+
+    <a href="#berita1">Ke Berita 1</a> |
+    <a href="#berita2">Ke Berita 2</a> |
+    <a href="#berita3">Ke Berita 3</a>
+
+    <br><br><br>
+
+    <h3 id="berita1">Berita 1</h3>
+
+    <p>
+        Teknologi kecerdasan buatan berkembang sangat pesat dalam beberapa tahun terakhir.
+        Banyak perusahaan teknologi besar berlomba mengembangkan sistem AI yang lebih canggih
+        untuk membantu manusia dalam berbagai bidang seperti kesehatan, pendidikan, dan industri.
+        Perkembangan ini didorong oleh meningkatnya kemampuan komputasi serta ketersediaan
+        data dalam jumlah besar yang dapat digunakan untuk melatih model kecerdasan buatan.
+    </p>
+
+    <p>
+        Di sektor pendidikan, AI mulai digunakan untuk membantu proses pembelajaran,
+        memberikan rekomendasi materi, hingga membantu dosen dan guru dalam melakukan
+        evaluasi terhadap hasil belajar mahasiswa. Beberapa platform pembelajaran bahkan
+        sudah mampu menyesuaikan materi sesuai kemampuan masing-masing siswa sehingga
+        proses belajar menjadi lebih efektif.
+    </p>
+
+    <p>
+        Selain itu, AI juga mulai digunakan dalam bidang kesehatan seperti analisis citra
+        medis, diagnosis penyakit, serta pengembangan obat. Teknologi ini memungkinkan
+        dokter untuk mendeteksi penyakit lebih cepat dan lebih akurat dibandingkan metode
+        konvensional. Walaupun demikian, penggunaan AI tetap harus diawasi oleh tenaga
+        profesional agar hasil yang diberikan tetap dapat dipertanggungjawabkan.
+    </p>
+
+    <p>
+        Para ahli juga mengingatkan bahwa perkembangan teknologi ini harus diimbangi
+        dengan regulasi dan etika yang jelas. Tanpa pengawasan yang tepat, teknologi
+        yang sangat kuat seperti AI dapat menimbulkan berbagai risiko seperti
+        penyalahgunaan data atau penyebaran informasi yang tidak akurat.
+    </p>
+
+    <br><br><br>
+
+    <h3 id="berita2">Berita 2</h3>
+
+    <p>
+        Perkembangan industri digital juga mendorong lahirnya banyak startup baru.
+        Startup ini fokus pada solusi teknologi seperti fintech, edutech, dan healthtech
+        yang bertujuan mempermudah kehidupan masyarakat. Banyak perusahaan rintisan
+        berhasil menarik perhatian investor karena menawarkan inovasi yang mampu
+        mengubah cara kerja berbagai sektor industri.
+    </p>
+
+    <p>
+        Di Indonesia sendiri, pertumbuhan ekonomi digital diprediksi akan terus meningkat
+        seiring dengan bertambahnya pengguna internet dan perangkat mobile setiap tahunnya.
+        Masyarakat semakin terbiasa menggunakan layanan digital untuk berbagai kebutuhan
+        seperti berbelanja, memesan transportasi, hingga melakukan pembayaran secara online.
+    </p>
+
+    <p>
+        Pemerintah juga mulai memberikan perhatian lebih terhadap perkembangan ekonomi
+        digital dengan menyediakan berbagai program pendukung seperti pelatihan
+        kewirausahaan digital, dukungan pembiayaan, serta pembangunan infrastruktur
+        internet yang lebih merata di seluruh wilayah.
+    </p>
+
+    <p>
+        Walaupun peluangnya sangat besar, membangun startup bukanlah hal yang mudah.
+        Banyak perusahaan rintisan gagal dalam beberapa tahun pertama karena kurangnya
+        perencanaan bisnis, masalah pendanaan, atau ketidakmampuan bersaing di pasar.
+        Karena itu, para pendiri startup harus memiliki strategi yang matang serta
+        kemampuan beradaptasi dengan cepat terhadap perubahan teknologi dan pasar.
+    </p>
+
+    <br><br><br>
+
+    <h3 id="berita3">Berita 3</h3>
+
+    <p>
+        Keamanan siber menjadi salah satu perhatian utama di era digital.
+        Banyak organisasi mulai meningkatkan sistem keamanan mereka untuk
+        melindungi data pengguna dari ancaman peretasan. Serangan siber dapat
+        menyebabkan kerugian yang sangat besar, baik dari sisi finansial maupun
+        reputasi perusahaan.
+    </p>
+
+    <p>
+        Penggunaan firewall, enkripsi data, serta sistem autentikasi yang kuat
+        menjadi langkah penting untuk menjaga keamanan informasi di internet.
+        Selain itu, perusahaan juga mulai menerapkan sistem pemantauan keamanan
+        secara real-time untuk mendeteksi aktivitas mencurigakan lebih cepat.
+    </p>
+
+    <p>
+        Para ahli keamanan juga menekankan pentingnya edukasi bagi pengguna
+        internet. Banyak serangan siber sebenarnya terjadi karena kelalaian
+        pengguna seperti menggunakan password yang lemah, membuka email
+        phishing, atau mengunduh file dari sumber yang tidak terpercaya.
+    </p>
+
+    <p>
+        Dengan meningkatnya kesadaran terhadap keamanan digital, diharapkan
+        baik individu maupun organisasi dapat lebih berhati-hati dalam
+        mengelola informasi pribadi serta data penting yang mereka miliki.
+        Langkah kecil seperti menggunakan password yang kuat dan
+        mengaktifkan autentikasi dua faktor dapat memberikan perlindungan
+        yang jauh lebih baik terhadap berbagai ancaman di internet.
+    </p>
+    <br><br><br>
+
+    <a href="#top">Kembali ke atas</a>
+
+</body>
+
+</html>
